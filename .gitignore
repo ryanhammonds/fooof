@@ -1,47 +1,47 @@
 # Ignore source release files
-/dist/*
-/fooof.egg-info/*
-/build/*
+model/dist/*
+model/fooof.egg-info/*
+model/build/*
 
 # Ignore notebook checkpoints
-*.ipynb_checkpoints*
+model/*.ipynb_checkpoints*
 
 # Ignore cache
-*__pycache__/*
-*.cache*
+model/*__pycache__/*
+model/*.cache*
 
 # Ignore compiled files
-*.pyc
+model/*.pyc
 
 # Ignore Mac folder profile files
-*DS_Store*
+model/*DS_Store*
 
 # Ignore coverage file
-.coverage
+model/.coverage
 
 # Ignore testing related files
-.pytest_cache/*
+model/.pytest_cache/*
 
 # Ignore temp file for linter output
-_lint.txt
+model/_lint.txt
 
 # Ignore all files generated during testing
-*/tests/test_files/*
+model/*/tests/test_files/*
 
 # Ignore any data files or files generated in the documentation
-/tutorials/**/*.pdf
-/tutorials/**/*.json
-/tutorials/**/data/*
-/examples/**/*.pdf
-/examples/**/*.json
-/examples/**/data/*
-/motivations/**/*.pdf
-/motivations/**/*.json
-/motivations/**/data/*
+model/tutorials/**/*.pdf
+model/tutorials/**/*.json
+model/tutorials/**/data/*
+model/examples/**/*.pdf
+model/examples/**/*.json
+model/examples/**/data/*
+model/motivations/**/*.pdf
+model/motivations/**/*.json
+model/motivations/**/data/*
 
 # Ignore documentation files
-doc/_build/*
-doc/auto_examples/*
-doc/auto_tutorials/*
-doc/auto_motivations/*
-doc/generated/*
+model/doc/_build/*
+model/doc/auto_examples/*
+model/doc/auto_tutorials/*
+model/doc/auto_motivations/*
+model/doc/generated/*
