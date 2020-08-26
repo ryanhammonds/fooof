@@ -1,0 +1,13 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: mix(#000, #7a8288, 50%);
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+        "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    line-height: 1.5;
+}

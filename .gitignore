@@ -45,3 +45,5 @@ model/doc/auto_examples/*
 model/doc/auto_tutorials/*
 model/doc/auto_motivations/*
 model/doc/generated/*
+
+*__pycache__
