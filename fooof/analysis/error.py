@@ -118,3 +118,24 @@ def compute_pointwise_error(model, data):
     """
 
     return np.abs(model - data)
+
+
+def compute_mae_error(model, data):
+    """Calculate the median absolute error between original data and a model fit of that data.
+
+    Parameters
+    ----------
+    model : 1d array
+        The model.
+    data : 1d array
+        The original data that is being modeled.
+
+    Returns
+    -------
+    mae : float
+        The median absolute error between the model fit and original data.
+    """
+
+    mae = np.median(np.abs(model - data), axis=0)
+
+    return mae
